@@ -1,0 +1,18 @@
+在 Linux 中截图的默认方式
+PrtSc 			– 获取整个屏幕的截图并保存到 Pictures 目录
+Shift + PrtSc 		– 获取屏幕的某个区域截图并保存到 Pictures 目录
+Alt + PrtSc 		– 获取当前窗口的截图并保存到 Pictures 目录
+Ctrl + PrtSc 		– 获取整个屏幕的截图并存放到剪贴板
+Shift + Ctrl + PrtSc 	– 获取屏幕的某个区域截图并存放到剪贴板
+Ctrl + Alt + PrtSc 	– 获取当前窗口的 截图并存放到剪贴板。
+
+
+
+
+
+vim
+命令行模式下：
+u 撤销
+解决从外部粘贴代码问题，现在命令模式下: set paste，然后再进入插入模式粘贴，代码就不会被自动缩进。可是敲代码的时候需要自动缩进，又得改回来set nopaste（最方便的方法就是在.vimrc中加一句：set pastetoggle=<F9>，以后在插入模式下，只要按F9键就可以切换自动缩进）
+
+
